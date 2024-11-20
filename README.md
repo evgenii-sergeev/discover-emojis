@@ -1,29 +1,38 @@
-# Create T3 App
+# Emoji Finder
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Emoji Finder is a modern web application built with **Next.js**, **Tailwind CSS**, and **TanStack React Query**. The app allows users to quickly search for emojis by name and provides additional features such as a feedback form and an about page.
 
-## What's next? How do I make an app with this?
+---
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Features
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+### 🔍 Emoji Search
+- Search for emojis by name in real-time.
+- Displays a list of matching emojis with their names and images.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### 📢 Feedback Form
+- Users can submit feedback or suggestions directly through the app.
+- Feedback is validated and securely handled (example server logic not included).
 
-## Learn More
+### ℹ️ About Page
+- Learn more about the application and its purpose (placeholder).
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+---
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Tech Stack
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- **[Next.js](https://nextjs.org/)**: React framework for server-rendered and static websites.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for building responsive designs quickly.
+- **[TanStack React Query](https://tanstack.com/query/latest)**: Powerful data-fetching and state-management library for React.
 
-## How do I deploy this?
+---
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Installation
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the repository**:
+   ```bash
+   cd next-emoji
+   pnpm install
+   pnpm run dev
