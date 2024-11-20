@@ -26,7 +26,7 @@ export default function ContactUs() {
           </h1>
 
           <div className="w-full max-w-2xl">
-            <h2 className="mb-6 text-2xl font-bold text-white text-center sm:text-left">
+            <h2 className="mb-6 text-center text-2xl font-bold text-white sm:text-left">
               Share Your Feedback
             </h2>
             {submitted ? (
