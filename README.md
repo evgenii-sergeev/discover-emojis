@@ -1,6 +1,6 @@
-# Emoji Finder
+# Discover Emojis
 
-Emoji Finder is a modern web application built with **Next.js**, **Tailwind CSS**, and **TanStack React Query**. The app allows users to quickly search for emojis by name and provides additional features such as a feedback form and an about page.
+Discover Emojis is a modern web application built with **Next.js**, **Tailwind CSS**, and **TanStack React Query**. The app allows users to quickly search for emojis by name and provides additional features such as a feedback form and an about page.
 
 ---
 
